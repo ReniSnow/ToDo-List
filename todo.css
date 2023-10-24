@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Comic_CAT";
+  src: local("Comic_CAT"), url("Comic_CAT.otf");
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0px;
+  text-transform: uppercase;
+  text-shadow: -5px -5px 0px #ef7657;
+  background: radial-gradient(#9da8a9 1px, transparent 1px);
+  background-size: 4px 4px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  text-align: center;
+  margin: 100px;
+  font-family: "Comic_CAT";
+  src: url("Comic_CAT.otf");
+  background-color: rgb(255, 241, 223);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  min-width: 120px;
+  max-width: 120px;
+}
+
+input {
+  border: 3px solid;
+  border-image: linear-gradient(20deg, #ffb05b 38%, #328fbd 65%);
+  border-image-slice: 1;
+  background-color: rgb(255, 241, 223);
+  color: #328fbd;
+  margin-top: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: "Comic_CAT";
+  src: url("Comic_CAT.otf");
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.tdItem {
+  color: #328fbd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+.tdItem:hover {
+  background-color: lightblue;
+}
